@@ -1,0 +1,51 @@
+Server creation=nodejs+express
+
+
+basic commands
+
+1. creation of the package.json-npm init
+2.creation of the node modules-npm i express (installing of express)
+3.npm i mongose
+basic steps
+
+1)creating a folder(bnkkserver)
+2)create package.json
+3)install express
+4)create index.js
+5)import express inside the index.js
+6)create an appusing the express
+7)setup port number
+8)resolving http request
+   Get-to get the data
+   post-to post the data 
+   put-update data partially 
+   patch-update data completely 
+   delete-to delete the data completely
+9)HTTp Response code
+
+1xx -Information
+2xx- successful
+3xx-Redirection
+4xx- client error
+5xx-Server error
+
+
+10)JWT token
+install JWT - npm i jsonwebtoken
+To generate a token - sign()
+
+11)Middleware
+
+   it comes in the middle of the request and response cycle of the nodejs execution process
+
+1)Application special middileware-for entire application
+req,res,next
+
+2)Router specific middleware-validate token-verify() -jwtwebtoken
+
+
+  
+
+12)Database integration
+   1)install mongoose-npm i mongoose
+

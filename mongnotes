@@ -1,0 +1,37 @@
+  mongo db
+----------------- 
+
+is a document database
+stores data in type of JSON called BSON
+key value pair
+NoSQL open-source
+document oriented
+instead of row and column using collection and document
+table-collection
+rows-documents
+columns-fields
+
+1)mongoDB community Server
+2)mogoDB ENterprise server
+3)mogoDB Atlas
+DOcument
+collection-group of documents
+Database-group of collection
+
+crud operations
+
+CREATE-Adding new documents to a collection
+READ-Selecting documents
+UPDATE-updating existing document
+DELETE-removing documents from a collection
+
+insertOne()-method allows you to insert a single document into collection
+
+insertMany()-
+
+findOne()-
+findMany()-
+
+
+
+kill -9 $(lsof -ti:3000) ---to kill the running port found it from stackover flow
